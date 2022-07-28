@@ -175,7 +175,7 @@ public class Main {
         System.out.println("Максимальная сумма трат за день составила " + maxCosts + "рублей." );
 
         //Задача 3..
-        double mediumCosts = (double)(sumCosts) / 30;
+        double mediumCosts = (double)(sumCosts) / array.length;
         System.out.println("Средняя сумма трат в день составила " + mediumCosts + "рублей.");
 
         //Задача 4..
